@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Page</title>
+  <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+	<body>
+        <div class="formBox">
+            <h2>Contact Us</h2>
+            <p>For work/general Equiries</p>
+            <form action="#">
+                <div class="nameInp">
+                    <i class="fa fa-user icon"></i>
+                    <input type="text" placeholder="Full Name" name="name" id="name">
+
+                </div>
+                <div class="mailInp">
+                    <i class="fa fa-envelope"></i>
+                    <input type="email" name="mail" id="mail" placeholder="Email">
+                    <div id="emailHelp" class="form-text">We'll never share your email with anyone alse.</div>
+                </div>
+                <div class="phoneInp">
+                    <i class="fa-solid fa-phone"></i>
+                    <input type="number" name="phone" id="phone" placeholder="Phone" min="100000" max="9999999999">
+                </div>
+                <div class="queryInp">
+                    <textarea name="query" id="query" cols="30" rows="5"
+                        placeholder="Any comment or your query"></textarea>
+                </div>
+                <div class="submitBtn">
+                    <button id="btn" onclick="notif()">Send</button>
+                </div>
+            </form>
+            <p class="extra">You can also contact us at 880-9096-282</p>
+        </div>
+        
+    </body>
+</body>
+</html>
